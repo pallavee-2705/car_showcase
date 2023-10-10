@@ -1,5 +1,6 @@
 import Image from 'next/image'
 import { Hero } from '@/components'
+import { SearchBar, CustomFilter, SearchManufacturer } from '@/components'
 
 export default function Home() {
   return (
@@ -22,7 +23,7 @@ export default function Home() {
           <SearchBar />
           <div className='filter__container'>
             <CustomFilter title='fuel' />
-            <CustomFilter title='fuel' />
+            <CustomFilter title='year' />
 
 
           </div>
