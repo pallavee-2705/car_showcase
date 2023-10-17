@@ -1,32 +1,35 @@
-"use client";
+import Image from "next/image";
+import { Fragment, useState } from "react";
+import { Combobox, Transition } from "@headlessui/react";
 
-import { Combobox,Transition } from '@headlessui/react'
-import { SearchManufacturerProps } from '@/types'
-import React from 'react'
-import Image from 'next/image';
+import { manufacturers } from "@/constants";
+import { SearchManuFacturerProps } from "@/types";
 
-import { useState, Fragment } from 'react';
-import { manufacturers } from '@/constants';
-import { relative } from 'path';
+const SearchManufacturer = ({
+  selected,
+  setSelected,
+}: SearchManuFacturerProps) => {
+  const [query, setQuery] = useState(""); // State for storing the search query
 
-const SearchManufacturer = ({ manufacturer, setManufacturer }: SearchManufacturerProps) => {
-  const [query, setQuery] = useState("");
-
+  // Filter the manufacturers based on the search query
   const filteredManufacturers =
-    query === ""
-      ? manufacturers
-      : manufacturers.filter((item) =>
-          item
-            .toLowerCase()
-            .replace(/\s+/g, "")
-            .includes(query.toLowerCase().replace(/\s+/g, ""))
+    query === "" 
+      ? manufacturers 
+      : manufacturers.filter(
+          (
+            item 
+          ) =>
+            item
+              .toLowerCase() 
+              .replace(/\s+/g, "") 
+              .includes(query.toLowerCase().replace(/\s+/g, "")) 
         );
 
   return (
     <div className='search-manufacturer'>
-      <Combobox value={manufacturer} onChange={setManufacturer}>
+      <Combobox value={selected} onChange={setSelected}>
         <div className='relative w-full'>
-          {/* Button for the combobox. Click on the icon to see the complete dropdown */}
+         
           <Combobox.Button className='absolute top-[14px]'>
             <Image
               src='/car-logo.svg'
@@ -37,7 +40,7 @@ const SearchManufacturer = ({ manufacturer, setManufacturer }: SearchManufacture
             />
           </Combobox.Button>
 
-          {/* Input field for searching */}
+         
           <Combobox.Input
             className='search-manufacturer__input'
             displayValue={(item: string) => item}
@@ -45,18 +48,16 @@ const SearchManufacturer = ({ manufacturer, setManufacturer }: SearchManufacture
             placeholder='Volkswagen...'
           />
 
-          {/* Transition for displaying the options */}
+          
           <Transition
-            as={Fragment} // group multiple elements without introducing an additional DOM node i.e., <></>
+            as={Fragment} 
             leave='transition ease-in duration-100'
             leaveFrom='opacity-100'
             leaveTo='opacity-0'
-            afterLeave={() => setQuery("")} // Reset the search query after the transition completes
+            afterLeave={() => setQuery("")} 
           >
-            <Combobox.Options
-              className='absolute mt-1 max-h-60 w-full overflow-auto rounded-md bg-white py-1 text-base shadow-lg ring-1 ring-black ring-opacity-5 focus:outline-none sm:text-sm'
-              static
-            >
+            <Combobox.Options className='search-manufacturer__options' static>
+              
               {filteredManufacturers.length === 0 && query !== "" ? (
                 <Combobox.Option
                   value={query}
@@ -65,6 +66,7 @@ const SearchManufacturer = ({ manufacturer, setManufacturer }: SearchManufacture
                   Create "{query}"
                 </Combobox.Option>
               ) : (
+                // Display the filtered manufacturers as options
                 filteredManufacturers.map((item) => (
                   <Combobox.Option
                     key={item}
@@ -77,13 +79,23 @@ const SearchManufacturer = ({ manufacturer, setManufacturer }: SearchManufacture
                   >
                     {({ selected, active }) => (
                       <>
-                        <span className={`block truncate ${selected ? "font-medium" : "font-normal"}`}>
+                       
+                        <span
+                          className={`block truncate ${
+                            selected ? "font-medium" : "font-normal"
+                          }`}
+                        >
                           {item}
                         </span>
 
-                        {/* Show an active blue background color if the option is selected */}
+                        
                         {selected ? (
-                          <span className={`absolute inset-y-0 left-0 flex items-center pl-3 ${active? "text-white": "text-pribg-primary-purple"}`}
+                          <span
+                            className={`absolute inset-y-0 left-0 flex items-center pl-3 ${
+                              active
+                                ? "text-white"
+                                : "text-pribg-primary-purple"
+                            }`}
                           ></span>
                         ) : null}
                       </>
