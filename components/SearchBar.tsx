@@ -48,7 +48,7 @@ const SearchBar = ({ setManuFacturer, setModel }: SearchBarProps) => {
           height={25}
           className='absolute w-[20px] h-[20px] ml-4'
           alt='car model'
-        />
+        />  
         <input
           type='text'
           name='model'
