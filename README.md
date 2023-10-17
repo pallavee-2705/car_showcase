@@ -1,4 +1,4 @@
-# Car Hub - Your Ultimate Car Rental Destination 🚗
+![image1](https://github.com/pallavee-2705/car_showcase/assets/87165168/5bc0e76c-d2df-4319-9a37-686b3559b7df)# Car Hub - Your Ultimate Car Rental Destination 🚗
 
 Welcome to Car Hub, where your next car rental adventure begins! Car Hub is a cutting-edge web application that revolutionizes the way you find, book, and rent cars. Whether you're embarking on a cross-country road trip, in need of a temporary vehicle, or simply seeking the thrill of a new ride, Car Hub is your one-stop destination.
 
@@ -16,17 +16,15 @@ Car Hub boasts a treasure trove of features designed to make your car rental exp
 
 - **Responsive Design:** Car Hub adapts seamlessly to your device, whether you're browsing on your desktop or on the go with your mobile device.
 
-## A Visual Preview 📸
+## Visit the Live Deployment 📸
 
 Get a sneak peek of Car Hub's captivating interface:
 
-![image1](https://github.com/pallavee-2705/car_showcase/assets/87165168/d56854c3-194a-4595-a4ec-0e6dcb901931)
-
-
-
-
-![image2](https://github.com/pallavee-2705/car_showcase/assets/87165168/e69aded8-8039-4a4c-96eb-4c1b69f975e7)
-
+<p align="center">
+  <a href="https://car-showcase-khaki-five.vercel.app/">
+    <img src="![image1](https://github.com/pallavee-2705/car_showcase/assets/87165168/fbed8c36-a761-42b3-8bf9-e206898b7c95)" alt="Explore Car Showcase" width="300">
+  </a>
+</p>
 
 
 ## Tech Stack 🛠
