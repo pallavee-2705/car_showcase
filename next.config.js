@@ -1,8 +1,7 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-    images:{
-        domains:['cd.imagin.studio']
-
+    images: {
+        domains: ["cdn.imagin.studio"]
     }
 }
 
