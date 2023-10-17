@@ -18,9 +18,6 @@ Car Details: View high-quality images and essential specs of each car with a sin
 ### Screenshots 📸
 [image1](https://github.com/pallavee-2705/car_showcase/assets/87165168/8e530f83-ebd6-4212-81fe-ca808b7b33a9)
 
-
-<br/>
-
 ![image2](https://github.com/pallavee-2705/car_showcase/assets/87165168/9a5ac098-24d0-4366-bf6b-cf7ab0da456b)
 
 ### Technology Stack 🛠
