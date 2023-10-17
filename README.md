@@ -16,11 +16,11 @@ Car Details: View high-quality images and essential specs of each car with a sin
 
 
 ### Screenshots 📸
+**Screenshot 1:**
 ![Screenshot 1](car_showcase/screenshots/image1.png)
 
-<br>
+**Screenshot 2:**
 ![Screenshot 2](car_showcase/screenshots/image2.png)
-
 
 ### Technology Stack 🛠
 Car Hub is built using cutting-edge technologies, including:
