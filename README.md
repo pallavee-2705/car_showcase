@@ -19,7 +19,8 @@ Car Hub boasts a treasure trove of features designed to make your car rental exp
 ## Visit the Live Deployment 📸
 
 Get a sneak peek of Car Hub's captivating interface:
-[![image1](https://github.com/pallavee-2705/car_showcase/assets/87165168/da40069c-7b53-4b47-8697-c7ebc6d3d008)](https://car-showcase-khaki-five.vercel.app/)
+
+[![image1](https://raw.githubusercontent.com/pallavee-2705/car_showcase/main/assets/87165168/da40069c-7b53-4b47-8697-c7ebc6d3d008.png)](https://car-showcase-khaki-five.vercel.app/)
 
 
 
