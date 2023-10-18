@@ -15,18 +15,26 @@ Car Hub boasts a treasure trove of features designed to make your car rental exp
 - **Smart Search and Filters:** Find your ideal car effortlessly with our advanced search and filter tools.
 
 - **Responsive Design:** Car Hub adapts seamlessly to your device, whether you're browsing on your desktop or on the go with your mobile device.
+<br>
+<br>
+<br>
 
 ## Visit the Live Deployment 📸
 
 Get a sneak peek of Car Hub's captivating interface by clicking on the following link: 
-
+<br>
 [Car Hub - Your Ultimate Car Rental Destination](https://car-showcase-khaki-five.vercel.app/)
 <br>
+<br>
+<br>
+
 ## Visual Showcase
 ![image1](https://github.com/pallavee-2705/car_showcase/assets/87165168/ac45d9cc-cc53-46e8-93e9-dcc88824891e)
 
 ![image2](https://github.com/pallavee-2705/car_showcase/assets/87165168/a739f73e-473d-4406-a810-1cced01bb0de)
-
+<br>
+<br>
+<br>
 
 
 ## Tech Stack 🛠
