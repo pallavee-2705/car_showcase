@@ -16,13 +16,13 @@ Car Hub boasts a treasure trove of features designed to make your car rental exp
 
 - **Responsive Design:** Car Hub adapts seamlessly to your device, whether you're browsing on your desktop or on the go with your mobile device.
 <br>
-<br>
-<br>
 
 ## Visit the Live Deployment 📸
 
 Get a sneak peek of Car Hub's captivating interface by clicking on the following link: 
 <br>
+<br>
+
 [Car Hub - Your Ultimate Car Rental Destination](https://car-showcase-khaki-five.vercel.app/)
 <br>
 <br>
